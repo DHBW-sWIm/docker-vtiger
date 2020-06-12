@@ -1,9 +1,9 @@
-# swimdhbw/VTiger
+# swimdhbw/vtiger
 
 Vtiger CRM is open source software that helps more than 100000 businesses grow sales,
 improve marketing reach, and deliver great customer service.
 
-This repository contains a modified version of VTiger 7.1.0 in according to SWIM CRM requirements.
+This repository contains a modified version of VTiger 7.1.0 according to SWIM CRM requirements.
 You can upgrade to a newer version of VTiger by modifying the Dockerfile. Please referr to [this repository](https://github.com/javanile/vtiger). There you can find further information about other Dockerfile configurations.
 
 ## Docker Hub
