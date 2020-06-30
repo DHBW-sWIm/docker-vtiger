@@ -193,7 +193,7 @@ $languageStrings = array(
     'chart' => 'Tabelle',
     'LBL_REPORTS_MOVED_SUCCESSFULLY'=>'Berichte erfolgreich verschoben.',
     'LBL_SAME_SOURCE_AND_TARGET_FOLDER'=>'Zielordner ist der gleiche wie Quellordner',
-	'LBL_SEARCH_FOR_FOLDERS' => 'Suche nach Ordnern',
+	'LBL_SEARCH_FOR_FOLDERS' => 'Nach Ordnern suchen',
 	'LBL_CHART_REPORT' => 'Diagramm Bericht',
 	'LBL_UNPIN_CHART_FROM_DASHBOARD' => 'Unpin Diagramm aus Armaturenbrett',
 

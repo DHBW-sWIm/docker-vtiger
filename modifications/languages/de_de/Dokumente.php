@@ -9,8 +9,8 @@
  ************************************************************************************/
 $languageStrings = array(
 	'SINGLE_Documents'             => 'Dokument'                    , 
-	'Documents'                    => 'Documents'                   , 
-	'LBL_ADD_RECORD'               => 'Add Document'                , 
+	'Documents'                    => 'Dokumente'                   , 
+	'LBL_ADD_RECORD'               => 'Dokument hinzufügen'                , 
 	'LBL_RECORDS_LIST'             => 'Documents List'              , 
 	'LBL_NOTE_INFORMATION'         => 'Dokumentinformation'         , 
 	'LBL_FILE_INFORMATION'         => 'Dateiinformation'            , 
@@ -38,7 +38,7 @@ $languageStrings = array(
 	'LBL_FOLDERS_LIST'             => 'Folders List'                , 
 	'LBL_FOLDERS'                  => 'Folders'                     , 
 	'LBL_DOCUMENTS_MOVED_SUCCESSFULLY' => 'Documents Moved Successfully', 
-	'LBL_DENIED_DOCUMENTS'         => 'Denied Documents'            , 
+	'LBL_DENIED_DOCUMENTS'         => 'Nicht zugelassene Dokumente'            , 
 	'MB'                           => 'MB'                          , 
 	'LBL_ADD_NEW_FOLDER'           => 'Verzeichnis hinzufügen'     , 
 	'LBL_FOLDER_NAME'              => 'Verzeichnisname'             , 

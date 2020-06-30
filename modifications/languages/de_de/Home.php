@@ -23,8 +23,8 @@ $languageStrings = array(
 	'PA'                           => 'unerledigte Aktivitäten'    , 
         'Home'                         => 'Dashboard'                  ,
 
-  'LBL_SAVE_ORDER' => 'Sparen Bestellen',
-  'LBL_ADD_NEW_DASHBOARD' => 'Fügen Sie neue dashboard',
+  'LBL_SAVE_ORDER' => 'Bestellung speichern',
+  'LBL_ADD_NEW_DASHBOARD' => 'Neues Dashboard hinzufügen',
 	'LBL_MAX_CHARACTERS_ALLOWED_DASHBOARD' => 'Maximal 30 Zeichen sind für Dashboard Namen erlaubt.',
 );
 
