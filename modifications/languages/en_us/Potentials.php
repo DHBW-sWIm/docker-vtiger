@@ -66,7 +66,7 @@ $languageStrings = array(
     'LBL_POTENTIALS_FIELD_MAPPING_INCOMPLETE' => 'Opportunities Field Mapping is incomplete(Settings > Module Manager > Opportunities > Opportunities Field Mapping)',
     
     //Potentials Custom Field Mapping
-	'LBL_CUSTOM_FIELD_MAPPING'=> 'Opportunity to Project mapping',
+	'LBL_CUSTOM_FIELD_MAPPING'=> 'Opportunity zu Projekt mapping',
 );
 
 $jsLanguageStrings = array(

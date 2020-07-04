@@ -61,7 +61,7 @@ $languageStrings = array(
 	'LBL_LEADS_FIELD_MAPPING' => 'Leads Field Mapping',
 
 	//Leads Custom Field Mapping
-	'LBL_CUSTOM_FIELD_MAPPING'=> 'Lead Conversion Data Mapping',
+	'LBL_CUSTOM_FIELD_MAPPING'=> 'Lead-Konvertierung Datenzuordnung',
 	'LBL_IMAGE_INFORMATION' => 'Profile Picture',
 	'Lead Image' => 'Lead Image',
 );

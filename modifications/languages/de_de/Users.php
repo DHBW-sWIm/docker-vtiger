@@ -8,7 +8,7 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	'LBL_ADD_RECORD'               => 'Add User'                    , 
+	'LBL_ADD_RECORD'               => 'Benutzer hinzufügen'                    , 
 	'LBL_MY_PREFERENCES'           => 'Meine Einstellungen'         , 
 	'LBL_MORE_INFORMATION'         => 'Mehr Informationen'          , 
 	'LBL_USERLOGIN_ROLE'           => 'Benutzer Login & Rolle'      , 
@@ -168,15 +168,15 @@ $languageStrings = array(
 	'Pacific/Auckland'             => '(UTC+12:00) Auckland'        , 
 	'Asia/Magadan'                 => '(UTC+12:00) Magadan'         , 
 	'Pacific/Tongatapu'            => '(UTC+13:00) Nukualofa'       , 
-	'Summary'                      => 'Summary'                     , 
-	'Detail'                       => 'Detail'                      , 
+	'Summary'                      => 'Zusammenfassung'                     , 
+	'Detail'                       => 'Details'                      , 
 	'LBL_USER_LIST_DETAILS'        => 'Details'                     , 
 	'LBL_USER_LIST_DETAILS'        => 'Details'                     ,
-	'LBL_OLD_PASSWORD'			   => 'Old Password',
-	'LBL_CHANGE_PASSWORD'	       => 'Change Password',
-	'LBL_NEW_PASSWORD'			   => 'New Password',
-	'LBL_CONFIRM_PASSWORD'		   => 'Confirm Password',
-	'LBL_CHANGE_ACCESS_KEY' => 'Ändern Access Key',
+	'LBL_OLD_PASSWORD'			   => 'Altes Passwort',
+	'LBL_CHANGE_PASSWORD'	       => 'Passwort ändern',
+	'LBL_NEW_PASSWORD'			   => 'Neues Passwort',
+	'LBL_CONFIRM_PASSWORD'		   => 'Passwort bestätigen',
+	'LBL_CHANGE_ACCESS_KEY' => 'Access Key ändern',
 	'LBL_ACCESS_KEY_UPDATED_SUCCESSFULLY' => 'Zugriffsschlüssel aktualisiert erfolgreich',
 	'LBL_FAILED_TO_UPDATE_ACCESS_KEY' => 'Fehlgeschlagen Zugriffsschlüssel zu aktualisieren',
 	'LBL_TRANSFER_OWNERSHIP' => 'Transfer Owner',
@@ -232,9 +232,9 @@ $languageStrings = array(
     'LBL_DUPLICATE_USER_EXISTS' => 'Benutzername existiert bereits',
 
 
-	'LBL_CHANGE_USERNAME'          => 'Ändern Benutzername'        ,
+	'LBL_CHANGE_USERNAME'          => 'Benutzername ändern'        ,
 	'LBL_USERNAME_CHANGED'         => 'Benutzername erfolgreich geändert',
-	'ERROR_CHANGE_USERNAME'        => 'Fehler bei der Änderung Benutzernamen ein. Bitte versuchen Sie es später',
+	'ERROR_CHANGE_USERNAME'        => 'Fehler bei der Änderung des Benutzernamens. Bitte versuchen Sie es später erneut',
 
   'LBL_REMOVE_USER' => 'Löschen',
   'LBL_MORE_OPTIONS' => 'Weitere Optionen',
@@ -242,7 +242,7 @@ $languageStrings = array(
   'LBL_CREATE_USER' => 'Benutzer Erstellen',
   'LBL_DELETE_USER_PERMANENTLY_INFO' => 'Löschen eines Benutzers dauerhaft übertragen werden alle Datensätze einschließlich der Kommentare und Geschichte an neue Benutzer.',
   'LBL_TO_CRM' => 'Anmeldung zu Vtiger CRM',
-  'LBL_INVALID_USER_OR_PASSWORD' => 'Ungültiger Benutzername oder ungültiges Kennwort.',
+  'LBL_INVALID_USER_OR_PASSWORD' => 'Ungültiger Benutzername oder ungültiges Passwort.',
   'LBL_INVALID_USER_OR_EMAIL' => 'Ungültiger Benutzername oder E-Mail-Adresse.',
   'LBL_EMAIL_SEND' => 'Wir schickten Sie per E-Mail, um Ihr Passwort zurückzusetzen.',
   'ForgotPassword' => 'Passwort Vergessen',
@@ -256,15 +256,15 @@ $languageStrings = array(
 );
 $jsLanguageStrings = array(
 	//Curency seperator validation messages
-	'JS_ENTER_OLD_PASSWORD'=>'Please enter your old password.',
-	'JS_ENTER_NEW_PASSWORD'=>'Please enter your new password.',
-	'JS_ENTER_CONFIRMATION_PASSWORD'=>'Please enter your password confirmation.',
-	'JS_REENTER_PASSWORDS'=>'Please re-enter passwords.  The \"new password\" and \"confirm password\" values do not match.',
-	'JS_INVALID_PASSWORD'=>'You must specify a valid username and password.',
-	'JS_PASSWORD_CHANGE_FAILED_1'=>'User password change failed for ',
-	'JS_PASSWORD_CHANGE_FAILED_2'=>' failed.  The new password must be set.',
-	'JS_PASSWORD_INCORRECT_OLD'=>'Incorrect old password specified. Re-enter password information.',
- 	'JS_ENTERED_CURRENT_USERNAME_MSG' => 'Sie betrat den aktuellen Benutzernamen. Bitte geben Sie neuen Benutzernamen ein.',
+	'JS_ENTER_OLD_PASSWORD'=>'Bitte geben Sie Ihr altes Passwort ein.',
+	'JS_ENTER_NEW_PASSWORD'=>'Bitte geben Sie Ihr neues Passwort ein.',
+	'JS_ENTER_CONFIRMATION_PASSWORD'=>'Bitte bestätigen Sie ihr Passwort',
+	'JS_REENTER_PASSWORDS'=>'Bitte Passwörter erneut eingeben.  Das \"neue Passwort\" und das \"Bestätigungspasswort\" stimmen nicht überein.',
+	'JS_INVALID_PASSWORD'=>'Bitte einen validen Benutzernamen und Passwort eingeben.',
+	'JS_PASSWORD_CHANGE_FAILED_1'=>'Passwortänderung fehlgeschlagen, weil  ',
+	'JS_PASSWORD_CHANGE_FAILED_2'=>' Fehlgeschlagen.  Bitte geben Sie ein Passwort an.',
+	'JS_PASSWORD_INCORRECT_OLD'=>'Das alte Passwort ist falsch. Bitte tragen Sie die Passwortinformationen erneut ein.',
+ 	'JS_ENTERED_CURRENT_USERNAME_MSG' => 'Alter Benutzername. Bitte geben Sie einen neuen Benutzernamen ein.',
 	'JS_NEW_ACCESS_KEY_REQUESTED' => 'Neue Zugriffsschlüssel angefordert',
 	'JS_CHANGE_ACCESS_KEY_CONFIRMATION' => 'Sie haben für einen neuen Zugriffsschlüssel angefordert. &lt;br&gt;&lt;br&gt;Mit dem neuen Access-Schlüsselbestimmung, können Sie die alten Zugriffsschlüssel mit dem neuen in allen installierten Erweiterungen zu ersetzen haben. &lt;br&gt;&lt;br&gt;Do Sie wollen weitermachen?',
 );

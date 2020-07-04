@@ -116,7 +116,7 @@ $languageStrings = array(
 	'LBL_TO_ADD_NEW_USER_PLEASE_CLICK_ON' => 'To add a new User, please click on ',
 	'LBL_SETTINGS_ICON' => 'Settings Icon',
 	'LBL_ADD_OR_DELETE_USERS' => 'Add/Delete Users',
-	'LBL_ADD_USER' => 'Add User',
+	'LBL_ADD_USER' => 'User hinzufügen',
 	'LBL_LABELS_EDITOR' => 'Labels Editor',
 	'LBL_LABELS_EDITOR_DESCRIPTION' => 'Lets you customize module names, field labels and other strings according to your business requirements',
 
@@ -369,7 +369,7 @@ $languageStrings = array(
     'LBL_TERMS_AND_CONDITIONS' => 'Terms and Conditions',
     'LBL_GATEWAY_CONFIGURATION' => 'Subscriptions',
     'LBL_LEAD_MAPPING' => 'Lead Conversion Data Mapping',
-    'LBL_OPPORTUNITY_MAPPING' => 'Opportunity to Project Mapping',
+    'LBL_OPPORTUNITY_MAPPING' => 'Opportunity zu Projekt Mapping',
     'LBL_PICKLIST_DEPENDENCY' => 'Picklist Dependency',
     'LBL_MY_TAGS' => 'My Tags',
 	'LBL_ADD_MODULE' => 'Add Module',

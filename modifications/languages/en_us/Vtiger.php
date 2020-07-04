@@ -45,9 +45,9 @@ $languageStrings = array(
 	'LBL_STARRED_RECORD_UPDATED' => '%s updated %s',
 	'LBL_SETTINGS'=> 'Settings',
 	'LBL_ADD_COMMENT' => 'Add Comment',
-	'LBL_EDIT_FIELDS' => '%s Fields & Layout',
+	'LBL_EDIT_FIELDS' => '%s Felder & Layout',
 	'LBL_EDIT_WORKFLOWS' => '%s Workflows',
-	'LBL_EDIT_PICKLIST_VALUES' => 'Picklists Values',
+	'LBL_EDIT_PICKLIST_VALUES' => 'Picklists Werte',
 	'LBL_EDIT_MAILSCANNER' => 'Mail Converter',
 	'LBL_RECORD_DELETE' => 'The record you are trying to view has been deleted.',
 	'LBL_RECORD_NOT_FOUND' => 'Record you are trying to access is not found',
@@ -778,7 +778,7 @@ $languageStrings = array(
 
 	//Module Manager
 	'LBL_TOOLTIP' => 'Tooltip Management',
-	'LBL_MODULE_SEQUENCE_NUMBERING' => '%s Numbering',
+	'LBL_MODULE_SEQUENCE_NUMBERING' => '%s Nummerierung',
 	'LBL_CUSTOM_FIELD_MAPPING' => 'Custom Field Mapping',
 	'LBL_WEBFORMS' => 'WebForms',
 
@@ -881,7 +881,7 @@ $languageStrings = array(
 	'LBL_MARK_AS_COMPLETED' => 'Mark As Completed',
 	'LBL_SMS_MAX_CHARACTERS_ALLOWED' => 'Maximum 160 characters are allowed for text message',
 	'LBL_HIDE_COMPLETED_EVENTS' => 'Hide Completed Calendar Events',
-	'LBL_SETUP_WEBFORMS' => 'Setup Webforms',
+	'LBL_SETUP_WEBFORMS' => 'Webforms aufsetzen',
 	'LBL_SPECIAL_OPTIONS' => 'Special Options',
 	'LBL_PARENT_OWNER' => 'Parent Record Owner',
 	'LBL_PASSWORD_LINK_EXPIRED_OR_INVALID_PASSWORD' => 'Password link has expired or you have entered invalid password',
@@ -889,7 +889,7 @@ $languageStrings = array(
 	// Recurring Invoice
 	'Half-Yearly' => 'Half-Yearly',
 	'LBL_FULLSCREEN' => 'Full Screen',
-	'LBL_SETUP_WEBFORMS' => 'Setup Webforms',
+	'LBL_SETUP_WEBFORMS' => 'Webforms aufsetzen',
 	'LBL_MODULE_DISABLED' => ' Module is disabled',
 	'Organization Name' => 'Organization Name',
 	'LBL_SOCIAL_TWITTER_WIDGET' => 'Twitter Activity',
@@ -1799,12 +1799,12 @@ $jsLanguageStrings = array(
 
 	'JS_DEFAULT_ENABLED' => 'Default enabled',
 	'JS_DEFAULT_DISABLED' => 'Default disabled',
-	'JS_EDIT_FIELDS' => '%s Fields & Layout',
+	'JS_EDIT_FIELDS' => '%s Felder & Layout',
 	'JS_MORE_VTIGER' => 'There are more records to be synchronized in vtiger',
 	'JS_MORE_GOOGLE' => 'There are more records to be synchronized in Google',
 	'JS_MORE_OFFICE365' => 'There are more records to be synchronized in Office365',
 	'JS_TOKEN_EXPIRED' => 'Office365 Authentication has expired. Click on Sign in with Office365 button to re-authorize.',
-	'JS_EDIT_FIELDS' => '%s Fields & Layout',
+	'JS_EDIT_FIELDS' => '%s Felder & Layout',
 	'JS_WISH_TO_PROCEED' =>"Are you sure you want to proceed?",
 	'JS_SWITCH_TO_OLD_LOOK_CONFIRMATION_MESSAGE' => 'Some features, including notifications, picklist colors, follow record, are not available in old version. You may switch back to new version by choosing new version from top right menu.',
 	'JS_PROCEED_OLD_VERSION' => 'Proceed to old version',
