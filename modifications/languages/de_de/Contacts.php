@@ -10,7 +10,7 @@
 $languageStrings = array(
 	'Contacts'                     => 'Kontakte'                    , 
 	'SINGLE_Contacts'              => 'Kontakt'                      , 
-	'LBL_ADD_RECORD'               => 'Kontakt'                 , 
+	'LBL_ADD_RECORD'               => 'Kontakts'                 , 
 	'LBL_RECORDS_LIST'             => 'Kontakt Liste'               , 
 	'LBL_CONTACT_INFORMATION'      => 'Kontakt hizufügen'                      , 
 	'LBL_CUSTOMER_PORTAL_INFORMATION' => 'Kundenportal'                , 
