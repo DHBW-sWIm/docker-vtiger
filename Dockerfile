@@ -43,7 +43,7 @@ RUN vtiger-install.sh --install-mysql --assert-mysql --dump --remove-mysql && \
     symvol move /var/www/html /usr/src/vtiger/volume
 
 COPY LoggerManager.php /var/www/html/libraries/log4php/
-COPY config.inc.php config.performance.php loading.php /var/www/html/
+COPY config.inc.php config.performance.php loading.php favicon.ico /var/www/html/
 
 COPY modifications/ /var/www/html/
 RUN cd /var/www/html/layouts/v7/resources/Images && ls
