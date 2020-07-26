@@ -153,14 +153,6 @@
 					</ul>
 				</div>
 			{/if}
-			<a target="_blank" href="https://drive.google.com/file/d/1bjCQVLaj6knOgBPL9wdp3i-uSW5ll2P0/view?usp=sharing">
-			<div class="menu-item app-item dropdown-toggle" style="position:absolute;bottom:0;width:99%;">
-					<div class="menu-items-wrapper">
-						<span class="app-icon-list fa fa-question"></span>
-						<span class="app-name textOverflowEllipsis">Benutzerhandbuch</span>
-					</div>
-			</div>
-			</a>
 		</div>
 	</div>
 </div>
