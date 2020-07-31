@@ -73,7 +73,11 @@
 												onclick='window.location.href = "{$BASIC_ACTION->getUrl()}&app={$SELECTED_MENU_CATEGORY}"'
 											{/if}>
 										<div class="fa {$BASIC_ACTION->getIcon()}" aria-hidden="true"></div>&nbsp;&nbsp;
-										{vtranslate($BASIC_ACTION->getLabel(), $MODULE)}
+										{if $MODULE === 'Contacts'}
+											Kontakt hinzufügen
+										{else} 
+											{vtranslate($BASIC_ACTION->getLabel(), $MODULE)}
+										{/if}
 									</button>
 								</li>
 							{/if}
