@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  vtiger:
+    image: swimdhbw/vtiger:latest
+    environment:
+      - VT_SITE_URL=http://localhost:8080
+      - MYSQL_HOST=mysql
+      - MYSQL_DATABASE=vtiger
+      - MYSQL_ROOT_PASSWORD=secret
+    ports:
+      - 8080:80
+    volumes:
+      - ./:/app
+      - vtiger:/var/lib/vtiger
+    links:
+      - mysql
+
+  mysql:
+    image: mysql:5.5
+    environment:
+      - MYSQL_DATABASE=vtiger
+      - MYSQL_ROOT_PASSWORD=secret
+    volumes:
+      - mysql:/var/lib/mysql:rw
+
+  adminer:
+    image: wodby/adminer
+    depends_on:
+      - mysql
+    environment:
+      ADMINER_DEFAULT_DB_DRIVER: mysql
+      ADMINER_DEFAULT_DB_HOST: mysql
+      ADMINER_DEFAULT_DB_NAME: vtiger
+      ADMINER_DESIGN: nette
+      ADMINER_PLUGINS: tables-filter tinymce
+    ports:
+      - 9000:9000
+
+volumes:
+  mysql:
+  vtiger:
