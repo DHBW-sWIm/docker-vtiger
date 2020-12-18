@@ -1,4 +1,4 @@
-FROM php:7.0.33-apache
+FROM php:7.4-apache
 LABEL maintainer="Francesco Bianco <info@javanile.org>"
 
 ENV VT_VERSION="7.1.0" \
